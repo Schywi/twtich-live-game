@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background: black;
+    overflow: hidden;
+  
+}
+#canvas1 {
+    position: absolute;
+    top: 48%;
+    left:63%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.wrapCanvas{
+  position: relative;
+  height: 100%;
+  
+  color: antiquewhite;
+}
+
+
+.eixoY{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 195px;
+  left:395px;
+  
+}
+
+.eixoY span {
+  height: 100px;
+  width: 20px;
+text-align: center;
+  text-align: center;
+  border: 1px solid white;
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eixoX span{
+  height: 20px;
+  width: 100px;
+  
+  text-align: center;
+  border: 1px solid white;
+ 
+}
+
+
+
+.eixoX{
+  display: flex;
+ 
+  position: absolute;
+  
+  top: 698px;
+  left:30%;
+  text-align: center;
+}
+
+footer, article {
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #737373; 
+  background: rgba(255,255,255,0.4);
+  background: blue;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 20px;
+}
+footer a{
+  color: gold;
+}
+
+h1{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.chooseDefender h1 {
+  color: #86cecb
+}
+
+.getCoin h1{
+color: rgb(255, 238, 0);
+ 
+}
+
+.positions h1 {
+  color: #e12885
+}
+.positions{
+   
+  color: white;
+  position: absolute;
+  
+  top: 1%;
+  left:3%;
+}
+
+/* showMIku*/
+.hide{
+  opacity: 0;
+  transition:  opacity 0.5s;
+}
+
+.show{
+  opacity: 1;
+  transition:  opacity 0.5s;
+}
+
+strong{
+  color:aqua
+}
+.wrapCommands {
+  position: absolute;
+  z-index: 100;
+  top: 2%;
+  left:82%;
+   width: 25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapCommandsTitles{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.wrapCommandsMiku{
+  position: absolute;
+  width: 350px;
+  top: 40%;
+  left:3%;
+}
+
+.wrapContents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

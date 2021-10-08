@@ -1,0 +1,76 @@
+
+<head>
+  
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <script>
+        
+    </script>
+</head>
+<body>
+    
+ 
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+<div class="wrapCommands hide" id="gameCommands">
+    <div class="wrapCommandsTitles">
+        <div class="chooseDefender ">
+            <h1>Defenders</h1>
+            <div class="wrapContents">
+                <span> !blueDefender</span>
+                <span> !pinkDefender</span>
+            </div>
+               
+        </div>
+        <div class="getCoin">
+            <h1>Coins</h1>
+            <div class="wrapContents">
+                <span>!get20</span>
+                <span>!get30</span>
+                <span>!get40</span>
+            </div>
+    </div>
+       
+                
+        </div>
+        
+       
+</div>
+<div class="positions">
+    <h1>Positions Commands</h1>
+    <div class="wrapContents">
+        <span>To choose column use: a,b,c,d,e,f</span>
+        <span>To choose rows use: 1,2,3,4,5</span>
+        <span>For example, type: <strong>!position:a3</strong>
+                or <strong>!position:c2</strong>
+        </span>
+    </div>
+   
+</div>
+
+<iframe src="./src/index.html" frameborder="0" height="500px" class="wrapCommandsMiku"></iframe>
+
+<div class="wrapCanvas">
+    <canvas id="canvas1"></canvas>
+    <div class="eixoY">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+    </div>
+    <div class="eixoX">
+        <span>a</span>
+        <span>b</span>
+        <span>c</span>
+        <span>d</span>
+        <span>e</span>
+        <span>f</span>
+    </div>
+</div>
+
+ 
+
+<script src="script.js"></script>
+</body>
